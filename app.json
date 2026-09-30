@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Perfil3 Series",
+    "slug": "Perfil3_CarlosQuintanilla",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.carlosquintanilla.perfil3",
+      "adaptiveIcon": {
+        "backgroundColor": "#0F172A",
+        "foregroundImage": "./assets/android-icon-foreground.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#0F172A",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "109c717a-2a04-4db1-bb9c-6e331a3a2dbd"
+      }
+    },
+    "owner": "marioq"
+  }
+}
